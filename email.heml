@@ -1,0 +1,189 @@
+<heml>
+  <head>
+    <subject>Dance With Me</subject>
+     <preview>Get your shoes ready New! Sabrina $299.00</preview>
+     <font href="https://fonts.googleapis.com/css?family=Righteous" />
+     <font href="https://fonts.googleapis.com/css?family=Lato:wght@400;700&display=swap" />
+     <style>
+        body{
+            background:#f4f4f4;
+            font-family:"Lato";
+            font-weight:400;
+            color:#515759;
+        }
+        container{
+            background:#ffffff;
+            margin: 30px auto;
+            border-radius:8px;
+            max-width:600px;
+        }
+        h1,h2,h3,h4,h5{
+            font-family:"Righteous";
+            color:#0c1014;
+        }
+        h4{
+            font-size:16px;
+            margin:30px 0 0 0;
+        }
+        .price{
+            font-size: 12px;
+            margin:10px 0;
+        }
+        a{
+            text-decoration:none;
+        }
+        .btn-small{
+            color:#ffffff;
+            background-color:#F178B6;
+            padding:5px 20px;
+            font-size:10px;
+            border-radius: 4px;
+        }
+     </style>
+  </head>
+  <body>
+    <container>
+        <row style="padding: 40px 0 30px 0;">
+            <column large="4" small="4">
+                <img class="heels" src="https://i.ibb.co/30HvV7J/heels.png"
+                    alt="heels" border="0" width="36px"
+                    style="margin: 0 0 0 155px;">
+            </column>
+            <column>
+                <h1 style="font-size:25px;
+                text-transform:uppercase;
+                letter-spacing:2px;
+                margin:0;">Dance With Me</h1>
+            </column>
+        </row>
+        <row>
+            <column style="background:#0b799d;
+                padding:20px 0;
+                border-radius: 0px 0 8px 8px;
+                text-align:center;
+                color:#ffffff;">
+                    <span class="genre-item" style="margin: 0 15px;">Salsa</span>
+                    <span class="genre-item" style="margin: 0 15px;">Bachata</span>
+                    <span class="genre-item" style="margin: 0 15px;">Kizmba</span>
+                    <span class="genre-item" style="margin: 0 15px;">Zouk</span>
+                    <span class="genre-item" style="margin: 0 15px;">Hiphop</span>
+            </column>
+        </row>
+    </container>
+    <container>
+        <row>
+            <column style="padding: 50px 0px 0px 70px;"  large="7" small="7">
+                <row>
+                    <column>
+                        <h2 style="font-size: 36px;
+                            line-height:45px;
+                            padding-right: 80px;">
+                            Get your shoes ready</h2>
+                        <p style="padding-right: 10px;
+                            line-height:20px;">
+                            <span syle="font-weight:700;">NEW! Sabrina</span>
+                            <br>Our latest shoes, designed for smooth turns and energetic performance.</p>
+                        <p>$299.00</p>
+                    </column>
+                </row>
+                <row>
+                    <column large="4" small="4">
+                        <a href="https:example.com"
+                            style="color:#1890ff;">Visit website</a>
+                    </column>
+                    <column>
+                        <img src="https://i.ibb.co/j6Hm4XY/right-arrow.png" alt="right-arrow" width="14px"
+                            style="margin-top:5px"/>
+                    </column>
+                </row>
+                <row style="margin-top:100px;">
+                    <column>
+                        <a style="background:#F178B6;
+                            font-size:18px;
+                            padding:10px 50px;
+                            width:300px;
+                            max-width:300px;
+                            color:#ffffff;
+                            border-radius:8px;">Buy</a>
+                    </column>
+                </row>
+            </column>
+            <column>
+             <img src="https://i.ibb.co/SxqYkTG/sabrina.png" alt="sabrina" />
+            </column>
+        </row>
+    </container>
+    <container>
+        <row style="padding: 50px 80px 40px 80px;">
+            <column>
+                <h3 style="font-size:24px;">Check also</h3>
+            </column>
+            <column style="padding: 20px 0 20px 80px;
+                text-align:right;">
+                <a style="color:#1890ff; large="2" small="2"">See all</a>
+            </column>
+            <column style="padding: 23px 0 23px 20px;" large="1" small="1">
+                <img src="https://i.ibb.co/j6Hm4XY/right-arrow.png" alt="right-arrow" width="14px" />
+            </column>
+        </row>
+        <row>
+            <column style="width:300px; max-width:300px; padding: 0 40px 40px 80px;">
+                <img src="https://i.ibb.co/N1w5tKn/nina.jpg" alt="Nina" />
+                <h4>Nina</h4>
+                <p class="price">$199.00</p>
+                <a href="https:example.com" class="btn-small">Buy</a>
+            </column>
+            <column style="width:300px; max-width:300px; padding: 0 80px 40px 40px;">
+                <img src="https://i.ibb.co/HqYSG1V/Elena.jpg" alt="Elena" />
+                <h4>Elena</h4>
+                <p class="price">$299.00</p>
+                <a href="https:example.com" class="btn-small">Buy</a>
+            </column>
+        </row>
+        <row>
+            <column style="width:300px; max-width:300px; padding: 0 40px 60px 80px;">
+                <img src="https://i.ibb.co/TW7csLG/samantha.jpg" alt="Samantha" />
+                <h4>Samantha</h4>
+                <p class="price">$299.00</p>
+                <a href="https:example.com" class="btn-small">Buy</a>
+            </column>
+            <column style="width:300px; max-width:300px; padding: 0 80px 60px 40px;">
+                <img src="https://i.ibb.co/b6WYyGh/ella.jpg" alt="Ella"/>
+                <h4>Ella</h4>
+                <p class="price">$189.00</p>
+                <a href="https:example.com" class="btn-small">Buy</a>
+
+            </column>
+        </row>
+    </container>
+    <container>
+        <row>
+            <column  style="padding: 35px 30px 35px 80px;">
+                <row>
+                    <column>
+                        <h5 style="font-size:18px;margin:0;">Follow Us.</h5>
+                        <p style="font-size:11px;margin:10px 0 40px 0;">Get the lastest products and event information.</p>
+                    </column>
+                </row>
+                <row>
+                    <column large="2" small="2">
+                        <a class="social-icon" href="https:example.com"><img class="social-icon" src="https://i.ibb.co/FgyvwKV/black-facebook.png" alt="facebook-logo" width="20px"></a>
+                    </column>
+                    <column large="2" small="2">
+                        <a class="social-icon" href="https:example.com"><img class="social-icon" src="https://i.ibb.co/qr7Gb1m/black-twitter.png" alt="facebook-logo" width="20px"></a>
+                    </column>
+                    <column large="2" small="2">
+                        <a href="https:example.com"><img src="https://i.ibb.co/NtPp0LK/black-instagram.png" alt="facebook-logo" width="20px"></a>
+                    </column>
+                </row>
+            </column>
+            <column  style="padding: 35px 80px 35px 30px;">
+                <h5 style="font-size:18px; margin:0;">Contact Us</h5>
+                <p style="font-size:11px; padding-right:90px; margin:10px 0 20px 0;">114 Ocean Rd Sydney, NSW 2000</p>
+                <p style="font-size:11px; margin:0 0 10px 0;">(000) 999-1010</p>
+                <p style="font-size:11px; color:#1890ff;margin:0;">support@dancewithme.com</p>
+            </column>
+        </row>
+    </container>
+  </body>
+</heml>
